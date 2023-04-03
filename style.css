@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+     }
+h1{
+    color:white;
+    font-family: "sans-serif"
+}
+p{
+    color:white;
+    font-family:"anton", sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    font-size:50px;
+    text-align: center;
+    border-style:dashed;
+    border-radius: 10px;
+    padding:5px;
+    margin:30px;
+    margin-left:250px;
+    margin-right:250px;
+
+
+
+}
+.odd{
+    color:red;
+}
+.even{
+    color:rgb(98, 187, 135);
+}
+#h11{
+    color:white;
+    font-family: "press start 2p", sans-serif;
+    font-size:75px;
+}
+.rotate-image img {
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }  
