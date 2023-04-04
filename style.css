@@ -1,4 +1,5 @@
-body{
+@charset "utf-8"
+;body{
     background-color:black;
      }
 h1{
@@ -10,6 +11,7 @@ p{
     font-family:"anton", sans-serif;
     font-style:italic;
     font-weight:bold;
+    line-height:2;
     font-size:50px;
     text-align: center;
     border-style:dashed;
@@ -18,9 +20,6 @@ p{
     margin:30px;
     margin-left:250px;
     margin-right:250px;
-
-
-
 }
 .odd{
     color:red;
@@ -44,4 +43,29 @@ p{
     100% {
       transform: rotate(360deg);
     }
-  }  
+  } 
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.nyudan-button {
+  margin-left: 800px;
+  height: 85px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  border: none;
+  padding: 15px;
+  box-align: center;
+  background-color: rgb(229, 35, 35);
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nyudan-button:hover {
+  background-color:white;
+  color:rgb(229, 35, 35);
+  border:solid;
+  border-radius: 100px;
+  transition: 1s;
+}
